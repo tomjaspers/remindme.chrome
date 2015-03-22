@@ -1,0 +1,207 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json remindme-anywhere@1.0.0 No description
+6 warn package.json remindme-anywhere@1.0.0 No repository field.
+7 warn package.json remindme-anywhere@1.0.0 No README data
+8 verbose install where, deps [ '/Users/tjs/Development/remindme-anywhere',
+8 verbose install   [ 'angular',
+8 verbose install     'jquery',
+8 verbose install     'normalize.scss',
+8 verbose install     'grunt',
+8 verbose install     'grunt-contrib-copy',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-cssmin',
+8 verbose install     'grunt-contrib-connect',
+8 verbose install     'grunt-contrib-clean',
+8 verbose install     'grunt-contrib-htmlmin',
+8 verbose install     'grunt-bower-install',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-usemin',
+8 verbose install     'grunt-mocha',
+8 verbose install     'grunt-svgmin',
+8 verbose install     'grunt-concurrent',
+8 verbose install     'load-grunt-tasks',
+8 verbose install     'time-grunt',
+8 verbose install     'jshint-stylish',
+8 verbose install     'grunt-chrome-manifest',
+8 verbose install     'grunt-contrib-compress' ] ]
+9 verbose install where, peers [ '/Users/tjs/Development/remindme-anywhere', [] ]
+10 info preinstall remindme-anywhere@1.0.0
+11 silly cache add args [ 'jquery@2.0.3', null ]
+12 verbose cache add spec jquery@2.0.3
+13 silly cache add parsed spec { raw: 'jquery@2.0.3',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'jquery',
+13 silly cache add   rawSpec: '2.0.3',
+13 silly cache add   spec: '2.0.3',
+13 silly cache add   type: 'version' }
+14 verbose addNamed jquery@2.0.3
+15 silly addNamed semver.valid 2.0.3
+16 silly addNamed semver.validRange 2.0.3
+17 silly mapToRegistry name jquery
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/jquery
+21 verbose addNameVersion registry:https://registry.npmjs.org/jquery not in flight; fetching
+22 silly cache add args [ 'normalize.scss@3.0.0', null ]
+23 verbose cache add spec normalize.scss@3.0.0
+24 silly cache add parsed spec { raw: 'normalize.scss@3.0.0',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'normalize.scss',
+24 silly cache add   rawSpec: '3.0.0',
+24 silly cache add   spec: '3.0.0',
+24 silly cache add   type: 'version' }
+25 verbose addNamed normalize.scss@3.0.0
+26 silly addNamed semver.valid 3.0.0
+27 silly addNamed semver.validRange 3.0.0
+28 silly mapToRegistry name normalize.scss
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/normalize.scss
+32 verbose addNameVersion registry:https://registry.npmjs.org/normalize.scss not in flight; fetching
+33 verbose already installed skipping grunt@~0.4.1 /Users/tjs/Development/remindme-anywhere
+34 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/tjs/Development/remindme-anywhere
+35 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/tjs/Development/remindme-anywhere
+36 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/tjs/Development/remindme-anywhere
+37 verbose already installed skipping grunt-contrib-jshint@~0.9.2 /Users/tjs/Development/remindme-anywhere
+38 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/tjs/Development/remindme-anywhere
+39 verbose already installed skipping grunt-contrib-connect@~0.7.1 /Users/tjs/Development/remindme-anywhere
+40 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/tjs/Development/remindme-anywhere
+41 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/tjs/Development/remindme-anywhere
+42 verbose already installed skipping grunt-bower-install@~1.0.0 /Users/tjs/Development/remindme-anywhere
+43 verbose already installed skipping grunt-contrib-imagemin@~0.7.1 /Users/tjs/Development/remindme-anywhere
+44 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/tjs/Development/remindme-anywhere
+45 verbose already installed skipping grunt-usemin@~2.1.0 /Users/tjs/Development/remindme-anywhere
+46 verbose already installed skipping grunt-mocha@~0.4.10 /Users/tjs/Development/remindme-anywhere
+47 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/tjs/Development/remindme-anywhere
+48 verbose request uri https://registry.npmjs.org/jquery
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 18:43:09
+51 verbose request id bcc55913d246218b
+52 http request GET https://registry.npmjs.org/jquery
+53 verbose request uri https://registry.npmjs.org/normalize.scss
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 18:43:09
+56 http request GET https://registry.npmjs.org/normalize.scss
+57 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/tjs/Development/remindme-anywhere
+58 verbose already installed skipping load-grunt-tasks@~0.4.0 /Users/tjs/Development/remindme-anywhere
+59 verbose already installed skipping time-grunt@~0.3.1 /Users/tjs/Development/remindme-anywhere
+60 verbose already installed skipping jshint-stylish@~0.1.5 /Users/tjs/Development/remindme-anywhere
+61 verbose already installed skipping grunt-chrome-manifest@~0.2.0 /Users/tjs/Development/remindme-anywhere
+62 verbose already installed skipping grunt-contrib-compress@~0.9.1 /Users/tjs/Development/remindme-anywhere
+63 silly cache add args [ 'angular@1.2.6', null ]
+64 verbose cache add spec angular@1.2.6
+65 silly cache add parsed spec { raw: 'angular@1.2.6',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'angular',
+65 silly cache add   rawSpec: '1.2.6',
+65 silly cache add   spec: '1.2.6',
+65 silly cache add   type: 'version' }
+66 verbose addNamed angular@1.2.6
+67 silly addNamed semver.valid 1.2.6
+68 silly addNamed semver.validRange 1.2.6
+69 silly mapToRegistry name angular
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/angular
+73 verbose addNameVersion registry:https://registry.npmjs.org/angular not in flight; fetching
+74 verbose request uri https://registry.npmjs.org/angular
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 18:43:09
+77 http request GET https://registry.npmjs.org/angular
+78 http 200 https://registry.npmjs.org/normalize.scss
+79 silly get cb [ 200,
+79 silly get   { date: 'Fri, 20 Mar 2015 17:43:10 GMT',
+79 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+79 silly get     etag: '"7CD5EKMQWGNZ8UDRSDRZ66OU6"',
+79 silly get     'content-type': 'application/json',
+79 silly get     'cache-control': 'max-age=60',
+79 silly get     'content-length': '4878',
+79 silly get     'accept-ranges': 'bytes',
+79 silly get     via: '1.1 varnish',
+79 silly get     age: '0',
+79 silly get     'x-served-by': 'cache-lcy1120-LCY',
+79 silly get     'x-cache': 'MISS',
+79 silly get     'x-cache-hits': '0',
+79 silly get     'x-timer': 'S1426873390.247971,VS0,VE163',
+79 silly get     vary: 'Accept',
+79 silly get     'keep-alive': 'timeout=10, max=50',
+79 silly get     connection: 'Keep-Alive' } ]
+80 verbose get saving normalize.scss to /Users/tjs/.npm/registry.npmjs.org/normalize.scss/.cache.json
+81 http 200 https://registry.npmjs.org/jquery
+82 silly get cb [ 200,
+82 silly get   { date: 'Fri, 20 Mar 2015 17:43:10 GMT',
+82 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+82 silly get     etag: '"3WKD9M1EJA5IG16RUD8XPMPV"',
+82 silly get     'content-type': 'application/json',
+82 silly get     'cache-control': 'max-age=60',
+82 silly get     'content-length': '51591',
+82 silly get     'accept-ranges': 'bytes',
+82 silly get     via: '1.1 varnish',
+82 silly get     age: '0',
+82 silly get     'x-served-by': 'cache-lcy1135-LCY',
+82 silly get     'x-cache': 'HIT',
+82 silly get     'x-cache-hits': '1',
+82 silly get     'x-timer': 'S1426873390.265800,VS0,VE354',
+82 silly get     vary: 'Accept',
+82 silly get     'keep-alive': 'timeout=10, max=50',
+82 silly get     connection: 'Keep-Alive' } ]
+83 verbose get saving jquery to /Users/tjs/.npm/registry.npmjs.org/jquery/.cache.json
+84 http 200 https://registry.npmjs.org/angular
+85 silly get cb [ 200,
+85 silly get   { date: 'Fri, 20 Mar 2015 17:43:10 GMT',
+85 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+85 silly get     etag: '"8Q10ZBEW9FYITNU37GGPPJIFB"',
+85 silly get     'content-type': 'application/json',
+85 silly get     'cache-control': 'max-age=60',
+85 silly get     'content-length': '87558',
+85 silly get     'accept-ranges': 'bytes',
+85 silly get     via: '1.1 varnish',
+85 silly get     age: '0',
+85 silly get     'x-served-by': 'cache-lcy1129-LCY',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '1',
+85 silly get     'x-timer': 'S1426873390.257343,VS0,VE353',
+85 silly get     vary: 'Accept',
+85 silly get     'keep-alive': 'timeout=10, max=50',
+85 silly get     connection: 'Keep-Alive' } ]
+86 verbose get saving angular to /Users/tjs/.npm/registry.npmjs.org/angular/.cache.json
+87 silly mapToRegistry name angular
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/angular
+91 verbose addRemoteTarball https://registry.npmjs.org/angular/-/angular-1.2.6.tgz not in flight; adding
+92 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular/-/angular-1.2.6.tgz',
+92 verbose addRemoteTarball   '325a5c8010913f7aee10d7cc1d2031f702bc7a88' ]
+93 info retry fetch attempt 1 at 18:43:10
+94 info attempt registry request try #1 at 18:43:10
+95 http fetch GET https://registry.npmjs.org/angular/-/angular-1.2.6.tgz
+96 http fetch 200 https://registry.npmjs.org/angular/-/angular-1.2.6.tgz
+97 silly fetchAndShaCheck shasum 325a5c8010913f7aee10d7cc1d2031f702bc7a88
+98 verbose addTmpTarball /var/folders/zx/nz_vppf55b10ps7v0p61xdlw0000gn/T/npm-26016-8046cdac/registry.npmjs.org/angular/-/angular-1.2.6.tgz not in flight; adding
+99 verbose addTmpTarball already have metadata; skipping unpack for angular@1.2.6
+100 silly cache afterAdd angular@1.2.6
+101 verbose afterAdd /Users/tjs/.npm/angular/1.2.6/package/package.json not in flight; writing
+102 verbose afterAdd /Users/tjs/.npm/angular/1.2.6/package/package.json written
+103 verbose stack Error: version not found: normalize.scss@3.0.0
+103 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:122:12)
+103 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+103 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+103 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+103 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+104 verbose statusCode 404
+105 verbose cwd /Users/tjs/Development/remindme-anywhere
+106 error Darwin 14.1.0
+107 error argv "node" "/usr/local/bin/npm" "install"
+108 error node v0.12.0
+109 error npm  v2.5.1
+110 error version not found: normalize.scss@3.0.0
+111 error If you need help, you may report this error at:
+111 error     <http://github.com/npm/npm/issues>
+112 verbose exit [ 1, true ]
