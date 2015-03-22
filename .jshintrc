@@ -18,8 +18,11 @@
   "strict": true,
   "trailing": true,
   "smarttabs": true,
+  "jquery": true,
   "globals" : {
     "chrome": true,
-    "crypto": true
+    "crypto": true,
+    "angular": true,
+    "RemindmeStorageService": true
   }
 }

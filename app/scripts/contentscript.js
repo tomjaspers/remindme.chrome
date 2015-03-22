@@ -37,31 +37,31 @@
 
 
 $(document).ready(function() {
-    var hashtagRegex = /#(\w+)[\t ]+(.*)/g;
+  var hashtagRegex = /#(\w+)[\t ]+(.*)/g;
 
-    $('textarea').bind('textchange', function(e, trigger, previousText) {
-      // Only process text when the textarea has cleared b/c of enter
-      if(!trigger.shiftKey && trigger.keyCode == 13){
-        processText(previousText);
-      }
-    });
-
-    function processText(text){
-      // Extract the (hashtag, value) pairs from given text
-      var match = hashtagRegex.exec(text);
-      while (match != null) {
-          storeItem(match[1], match[2]);
-          match = hashtagRegex.exec(text);
-      }
+  $('textarea').bind('textchange', function(e, trigger, previousText) {
+    // Only process text when the textarea has cleared b/c of enter
+    if(!trigger.shiftKey && trigger.keyCode === 13){
+      processText(previousText);
     }
+  });
 
-    function storeItem(hashtag, value) {
-        chrome.extension.sendMessage({
-              action : 'add',
-              data: {
-                tag: hashtag,
-                value: value,
-              }
-        });
+  function processText(text){
+    // Extract the (hashtag, value) pairs from given text
+    var match = hashtagRegex.exec(text);
+    while (match !== null) {
+      storeItem(match[1], match[2]);
+      match = hashtagRegex.exec(text);
+    }
+  }
+
+  function storeItem(hashtag, value) {
+      chrome.extension.sendMessage({
+        action : 'add',
+        data: {
+          tag: hashtag,
+          value: value,
+        }
+      });
     }
 });

@@ -1,6 +1,6 @@
 'use strict';
 
-var remindmeStorageService = function() {
+var RemindmeStorageService = function() {
   var lsName = 'remindmes';
   var data = localStorage.getItem(lsName) ? JSON.parse(localStorage.getItem(lsName)) : [];
 

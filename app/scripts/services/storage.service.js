@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('remindme').service('StorageService', remindmeStorageService);
+angular.module('remindme').service('StorageService', RemindmeStorageService);
